@@ -1,0 +1,20 @@
+{
+  "778847712049233950": {
+    "allowedUsers": [
+      "509004765380739107"
+    ],
+    "allowedRoles": [
+      "Admin",
+      "Moderator"
+    ]
+  },
+  "1307936325323980851": {
+    "allowedUsers": [
+      "509004765380739107"
+    ],
+    "allowedRoles": [
+      "Admin",
+      "Moderator"
+    ]
+  }
+}

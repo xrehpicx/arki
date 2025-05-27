@@ -1,0 +1,25 @@
+{
+  "name": "arki",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir ./dist --target node",
+    "lint": "tsc --noEmit",
+    "deploy-commands": "bun run src/deploy-commands.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.5.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "openai": "^4.100.0"
+  }
+}
