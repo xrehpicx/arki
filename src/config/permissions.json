@@ -14,8 +14,8 @@
       "440449131085824001"
     ],
     "allowedRoles": [
-      "Admin",
-      "Moderator"
+      "tech-lead",
+      "arki"
     ]
   }
 }
